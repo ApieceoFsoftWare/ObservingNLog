@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLogging", "FileLogging\FileLogging.csproj", "{28D54C8B-10B4-446F-B891-C59F8C6726B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservingNLogOnDatabase", "ObservingNLogOnDatabase\ObservingNLogOnDatabase.csproj", "{0352E0E4-2A8C-488E-B06C-42BF209730B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TSQL", "TSQL", "{33AF2AA3-F473-4742-A353-B36B29769BF1}"
+	ProjectSection(SolutionItems) = preProject
+		main.sql = main.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28D54C8B-10B4-446F-B891-C59F8C6726B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D54C8B-10B4-446F-B891-C59F8C6726B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D54C8B-10B4-446F-B891-C59F8C6726B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D54C8B-10B4-446F-B891-C59F8C6726B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0352E0E4-2A8C-488E-B06C-42BF209730B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0352E0E4-2A8C-488E-B06C-42BF209730B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0352E0E4-2A8C-488E-B06C-42BF209730B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0352E0E4-2A8C-488E-B06C-42BF209730B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4794FA5-073C-4793-811D-1FE412EBB129}
+	EndGlobalSection
+EndGlobal
